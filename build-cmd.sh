@@ -66,6 +66,7 @@ cp -r $FONTS_SOURCE_DIR/opendyslexic/*.otf "fonts/"
 # Copy Source Sans
 cp -r "$FONTS_SOURCE_DIR/source/SourceSans-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/source/*.ttf "fonts/"
+cp -r $FONTS_SOURCE_DIR/source/*.ttc "fonts/"
 
 # Copy Ubuntu
 cp -r "$FONTS_SOURCE_DIR/ubuntu/Ubuntu-License.txt" "fonts/"
