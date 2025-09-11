@@ -19,6 +19,10 @@ FONTS_SOURCE_DIR="../fonts"
 
 mkdir -p fonts
 
+# Copy AlibabaSans
+cp -r "$FONTS_SOURCE_DIR/alibaba/AlibabaSans-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/alibaba/*.otf "fonts/"
+
 # Copy Cascadia Code
 cp -r "$FONTS_SOURCE_DIR/cascadia/Cascadia-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/cascadia/*.ttf "fonts/"
@@ -45,6 +49,10 @@ cp -r $FONTS_SOURCE_DIR/ibmplex/*.otf "fonts/"
 # Copy Jetbrains Mono
 cp -r "$FONTS_SOURCE_DIR/jetbrains/JetbrainsMono-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/jetbrains/*.ttf "fonts/"
+
+# Copy LINE Seed
+cp -r "$FONTS_SOURCE_DIR/line-seed/LINE-Seed-Sans-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/line-seed/*.otf "fonts/"
 
 # Copy Monospace
 cp -r "$FONTS_SOURCE_DIR/monaspace/Monaspace-License.txt" "fonts/"
